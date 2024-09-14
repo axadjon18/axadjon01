@@ -4,11 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
-# Netlify Create (formerly Stackbit)
-.sourcebit-nextjs-cache.json
-.stackbit/cache
-.cache
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -23,7 +19,6 @@
 # misc
 .DS_Store
 *.pem
-Thumbs.db
 
 # debug
 npm-debug.log*
@@ -31,15 +26,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.envrc
+.env*.local
 
-# IDE
-*.code-workspace
-.idea
+# vercel
+.vercel
 
-tmp*
+# typescript
+*.tsbuildinfo
+next-env.d.ts
